@@ -22,6 +22,7 @@
 		34447802222948DE008954A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34447805222948DE008954A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34447807222948DE008954A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3444780E22294934008954A9 /* Swift Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Swift Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		344477EF222948D1008954A9 = {
 			isa = PBXGroup;
 			children = (
+				3444780D2229490E008954A9 /* Play Grounds */,
 				344477FA222948D1008954A9 /* HackingWithSwift */,
 				344477F9222948D1008954A9 /* Products */,
 			);
@@ -62,6 +64,14 @@
 				34447807222948DE008954A9 /* Info.plist */,
 			);
 			path = HackingWithSwift;
+			sourceTree = "<group>";
+		};
+		3444780D2229490E008954A9 /* Play Grounds */ = {
+			isa = PBXGroup;
+			children = (
+				3444780E22294934008954A9 /* Swift Basics.playground */,
+			);
+			path = "Play Grounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
