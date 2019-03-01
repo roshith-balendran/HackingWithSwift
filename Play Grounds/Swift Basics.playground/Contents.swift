@@ -54,4 +54,34 @@ heights["Ron"] //Reading from Dictionary
 
 //Dictionary default values
 heights["Harry"] // = 168, if heights["Draco"] is called it will return a nil. To avoid that we can give the dictionary a default value
+heights["Draco", default: 0]
 
+//Creating Empty Collections and Adding values later
+//Empty Dictionary
+var empty = [String: String]()
+empty["first"] = "String"
+//Empty Array
+var emptyInt = [Int]()
+emptyInt[0] = 10
+emptyInt[1] = 20
+print(emptyInt)
+//Empty Set
+var wordsSet = Set<String>()
+var numbersSet = Set<Int>()
+
+//Enumerations (Enum) : A way of defining group of related values in a way that makes them easier to use.
+enum Result {
+    case success(staus: String)//Associated values
+    case failure(errorCode: Int)//Associated values
+}
+
+var stringResult = Result.success(staus: "Success")
+
+//Enum Raw values
+enum Planet: Int {
+    case mercury = 1
+    case earth
+    case mars
+}
+//Swift will automatically assign each cases a number starting from zero. If we assign a value to case, Swift will count upwards from there.
+let earth = Planet(rawValue: 1)
